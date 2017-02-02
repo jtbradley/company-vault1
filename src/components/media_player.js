@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import VidPlayer from './vid_player';
-import MediaNav from './media_nav';
 
 class MediaPlayer extends Component {
   constructor() {
@@ -11,12 +10,11 @@ class MediaPlayer extends Component {
   render() {
     return(
 <div>
-<MediaNav />
+<VidPlayer />
 
   </div>
       );
   }
 }
-
 
 export default MediaPlayer;
